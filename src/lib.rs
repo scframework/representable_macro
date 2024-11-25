@@ -110,7 +110,7 @@ fn generate_trait_impl(struct_name: &syn::Ident, field_formatters: Vec<proc_macr
                 result.push_str(&[
                     #(#field_formatters),*
                 ].join(", "));
-                result.push_str(" } ");
+                result.push_str(" }");
                 result
             }
         }
