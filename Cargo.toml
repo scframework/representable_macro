@@ -1,0 +1,12 @@
+[package]
+name = "displayable_macro"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "2.0.89"
+quote = "1.0.37"
+representable_interface = { git = "https://github.com/scframework/representable_interface", version = "0.1.0" }
