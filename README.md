@@ -24,5 +24,5 @@ fn main() {
 ```
 [dependencies]
 representable_interface = { git = "https://github.com/scframework/representable_interface", version = "0.1.0" }
-representable_macro = { git = "https://github.com/scframework/representable_macro", version = "0.1.1" }
+representable_macro = { git = "https://github.com/scframework/representable_macro", version = "0.1.2" }
 ```
