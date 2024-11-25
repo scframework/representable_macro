@@ -3,15 +3,6 @@
 version = 3
 
 [[package]]
-name = "displayable_macro"
-version = "0.1.0"
-dependencies = [
- "quote",
- "representable_interface",
- "syn",
-]
-
-[[package]]
 name = "proc-macro2"
 version = "1.0.92"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -33,6 +24,16 @@ dependencies = [
 name = "representable_interface"
 version = "0.1.0"
 source = "git+https://github.com/scframework/representable_interface#b65f53ac2632c7740559ba703265ba2670a51cfd"
+
+[[package]]
+name = "representable_macro"
+version = "0.1.1"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "representable_interface",
+ "syn",
+]
 
 [[package]]
 name = "syn"
