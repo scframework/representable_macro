@@ -20,3 +20,9 @@ fn main() {
 }
 // Os { name: "Linux", age: 33 }
 ```
+
+```
+[dependencies]
+representable_interface = { git = "https://github.com/scframework/representable_interface", version = "0.1.0" }
+displayable_macro = { git = "https://github.com/scframework/representable_macro", version = "0.1.0" }
+```
